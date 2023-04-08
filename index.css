@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.navbar {
+    background-color: #023047;
+}
+main {
+    flex: 1 0 auto;
+}
+#output {
+    min-height: 45vh;
+}
+footer {
+    background-color: #023047;
+}
